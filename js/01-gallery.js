@@ -38,9 +38,7 @@ function onPictureClick(e) {
 let instance;
 function showModal(src) {
   instance = basicLightbox.create(`
-    <div class="modal">
-        <img src="${src}"></img>
-    </div>
+   <img src="${src}">
 `);
   instance.show();
   onModalOpen();
